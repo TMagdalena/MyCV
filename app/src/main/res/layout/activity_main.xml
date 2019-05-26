@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:id="@+id/primary"
+                android:padding="@dimen/padding"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <LinearLayout
+                    android:padding="@dimen/padding"
+                    android:orientation="vertical"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    tools:context=".MainActivity">
+
+
+                <TextView
+                        android:id="@+id/name_tv"
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/name"
+                        android:padding="@dimen/padding"
+                        android:textSize="@dimen/MainFontSize"
+                />
+
+                <TextView
+                        android:id="@+id/surname_tv"
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/surname"
+                        android:padding="@dimen/padding"
+                        android:textSize="@dimen/MainFontSize"
+                />
+
+                <TextView
+                        android:id="@+id/location_tv"
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/location"
+                        android:padding="@dimen/padding"
+                        android:textSize="@dimen/MainFontSize"
+                />
+
+                <TextView
+                        android:id="@+id/contact_tv"
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="john@mail.com"
+                        android:padding="@dimen/padding"
+                        android:textSize="@dimen/MainFontSize"
+                />
+
+
+            </LinearLayout>
+
+
+            <ImageView android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:src="@drawable/profile_picture"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:background="@android:color/white"
+                      android:layout_below="@id/primary"
+                      android:orientation="vertical"
+                      android:padding="@dimen/padding"
+                      android:layout_height="wrap_content">
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:textStyle="bold"
+                      android:text="Experience"
+                      android:textAlignment="center"
+                      android:textColor="@android:color/white"
+                      android:background="@android:color/holo_blue_dark"
+                      android:padding="@dimen/padding"
+                      android:textSize="@dimen/MainFontSize"
+            />
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/experience"
+                      android:padding="@dimen/padding"
+                      android:textSize="@dimen/MainFontSize"
+            />
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:textStyle="bold"
+                      android:text="Education"
+                      android:textAlignment="center"
+                      android:textColor="@android:color/white"
+                      android:background="@android:color/holo_blue_dark"
+                      android:padding="@dimen/padding"
+                      android:textSize="@dimen/MainFontSize"
+            />
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/education"
+                      android:padding="@dimen/padding"
+                      android:textSize="@dimen/MainFontSize"
+            />
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:textStyle="bold"
+                      android:text="Achievements"
+                      android:textAlignment="center"
+                      android:textColor="@android:color/white"
+                      android:background="@android:color/holo_blue_dark"
+                      android:padding="@dimen/padding"
+                      android:textSize="@dimen/MainFontSize"
+            />
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/achievements"
+                      android:padding="@dimen/padding"
+                      android:textSize="@dimen/MainFontSize"
+            />
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:textStyle="bold"
+                      android:textAlignment="center"
+                      android:text="Interests"
+                      android:textColor="@android:color/white"
+                      android:background="@android:color/holo_blue_dark"
+                      android:padding="@dimen/padding"
+                      android:textSize="@dimen/MainFontSize"
+            />
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/interests"
+                      android:padding="@dimen/padding"
+                      android:textSize="@dimen/MainFontSize"
+            />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

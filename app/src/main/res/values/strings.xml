@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyCV</string>
+    <string name="name">Tyler</string>
+    <string name="surname">Vader</string>
+    <string name="location">10 Manchester street</string>
+    <string name="experience">Rental Oﬃce Assistant Manager, Concours Motors , Milwaukee, WI</string>
+    <string name="education">Supply Chain and Operations Management, University of Wisconsin – Milwaukee</string>
+    <string name="achievements">Manage category driving over $40 million annually, Lead costing negotiations to increase
+        gross margin by 15% on key products, Excellent reporting and presentation skills, Highly proficient with MS Excel,
+        MS Access, PLM (product lifecycle management) software, Completed course work in ERP software implementation
+    </string>
+    <string name="interests">Technology Science Literature Film</string>
+</resources>
